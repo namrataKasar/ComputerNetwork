@@ -120,9 +120,9 @@ int main (int argc, char *argv[])
 	Ptr<LogNormalPropagationLossModel> randomProp = CreateObject<LogNormalPropagationLossModel> ();
 
 	randomProp->SetAttribute("NormalRandomVariable",
-                   StringValue ("ns3::NormalRandomVariable[Mean=0|Variance=4]"));
+                   StringValue ("ns3::NormalRandomVariable[Mean=0|Variance=2]"));
 
-        randomProp->SetAttribute("Exponent", DoubleValue(2.5));
+        randomProp->SetAttribute("Exponent", DoubleValue(3.0));
 
         randomProp->SetAttribute("ReferenceDistance", DoubleValue(3.0));
 	
