@@ -52,7 +52,7 @@ main (int argc, char *argv[])
 {
   bool verbose = true;
   uint32_t nCsma = 3;
-  uint32_t nWifi = 17;
+  uint32_t nWifi = 18;
   bool tracing = false;
 
   CommandLine cmd;
